@@ -8,9 +8,9 @@ public class NumberToBreakOn {
                 System.out.println(i);
             }
         }else{
-            for (int i = 1; i <= numberToGoUntil; i++) {
+            for (int i=0; i <numberToGoUntil; i++) {
                 if(i%toBreakWith==0)break;
-                System.out.println(i);
+                System.out.println(i+1);
             }
         }
     }
