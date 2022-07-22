@@ -7,9 +7,10 @@ public class NumberToBreakOn {
             for (int i = 1; i <= numberToGoUntil; i++) {
                 System.out.println(i);
             }
-        }else{
-            for (int i=0; i <numberToGoUntil; i++) {
-                if(i%toBreakWith==0)break;
+        }
+        if(numberToGoUntil>toBreakWith){
+            for (int i=0; i<=numberToGoUntil; i++) {
+                if(i%toBreakWith==0 && i!=0)break;
                 System.out.println(i+1);
             }
         }
